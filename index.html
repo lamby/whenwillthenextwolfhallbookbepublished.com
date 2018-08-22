@@ -21,7 +21,7 @@ layout: default
   <meta property="og:url" content="https://whenwillthenextwolfhallbookbepublished.com" />
   <meta property="og:title" content="When will the next Wolf Hall book be published?" />
 
-  <meta property="og:image" content="whenwillthenextwolfhallbookbepublished.com/bg.jpg?{{ site.time | date: '%s%N' }}" />
+  <meta property="og:image" content="https://whenwillthenextwolfhallbookbepublished.com/bg.jpg?{{ site.time | date: '%s%N' }}" />
   <meta property="og:image:width" content="209" />
   <meta property="og:image:height" content="209" />
 
@@ -91,6 +91,30 @@ layout: default
       right: 0;
       text-align: right;
     }
+
+    ul.share-buttons{
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.share-buttons li{
+      display: inline;
+    }
+
+    ul.share-buttons .sr-only{
+      position: absolute;
+      clip: rect(1px 1px 1px 1px);
+      clip: rect(1px, 1px, 1px, 1px);
+      padding: 0;
+      border: 0;
+      height: 1px;
+      width: 1px;
+      overflow: hidden;
+    }
+
+    ul.share-buttons img{
+      width: 32px;
+    }
   </style>
 </head>
 
@@ -104,6 +128,16 @@ layout: default
     <a
       href="https://www.theguardian.com/books/2017/jul/05/hilary-mantel-says-final-wolf-hall-book-unlikely-to-come-out-in-2018-as-planned">&ldquo;The Mirror and the Light – the sequel to Wolf Hall and Bring Up the Bodies – may not be published until&nbsp;2019&hellip;&rdquo;</a>
   </div>
+
+  <div class="links center">
+    <ul class="share-buttons">
+    <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwhenwillthenextwolfhallbookbepublished.com&quote=When%20will%20the%20next%20Wolf%20Hall%20book%20be%20published%3F" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="images/social_flat_rounded_rects_svg/Facebook.svg" /></a></li>
+    <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwhenwillthenextwolfhallbookbepublished.com&text=When%20will%20the%20next%20Wolf%20Hall%20book%20be%20published%3F:%20http%3A%2F%2Fwhenwillthenextwolfhallbookbepublished.com&" target="_blank" title="Tweet"><img alt="Tweet" src="images/social_flat_rounded_rects_svg/Twitter.svg" /></a></li>
+    <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwhenwillthenextwolfhallbookbepublished.com" target="_blank" title="Share on Google+"><img alt="Share on Google+" src="images/social_flat_rounded_rects_svg/Google+.svg" /></a></li>
+    <li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fwhenwillthenextwolfhallbookbepublished.com&title=When%20will%20the%20next%20Wolf%20Hall%20book%20be%20published%3F" target="_blank" title="Submit to Reddit"><img alt="Submit to Reddit" src="images/social_flat_rounded_rects_svg/Reddit.svg" /></a></li>
+    <li><a href="mailto:?subject=When%20will%20the%20next%20Wolf%20Hall%20book%20be%20published%3F&body=When%20will%20Hilary%20Mantel%20publish%20the%20sequel%20to%20Wolf%20Hall%20and%20Bring%20Up%20the%20Bodies%3F:%20http%3A%2F%2Fwhenwillthenextwolfhallbookbepublished.com" target="_blank" title="Send email"><img alt="Send email" src="images/social_flat_rounded_rects_svg/Email.svg" /></a></li>
+  </ul>
+</div>
 
   <div class="links right">
     by <strong><a href="https://twitter.com/lolamby" target="_blank">@lolamby</a></strong>
